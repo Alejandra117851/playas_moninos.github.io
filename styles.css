@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    background-color: #F9F9FF;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado con barra de navegación */
+  header {
+    background: linear-gradient(135deg, #5E60CE, #FFD700); /* Degradado suave de colores femeninos */
+    padding: 20px 0;
+    border-bottom: 3px solid #D1D5DB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; /* Bordes redondeados en todo el header */
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px; /* Bordes redondeados en los enlaces */
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+  }
+  
+  header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo sutil al pasar el ratón */
+    color: #FFD700; /* Cambio de color al pasar el ratón */
+  }
+  
+  header nav ul li a:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo sutil al hacer clic */
+    color: #FFD700;
+  }
+  
+  /* Barra de navegación activa o en uso */
+  header nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo más visible para el enlace activo */
+    color: #FFD700;
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Títulos */
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #5E60CE;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #FFD700;
+  }
+  
+  /* Párrafos */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Imágenes */
+  img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05); /* Efecto zoom al pasar el ratón */
+  }
+  
+  /* Estilos de los enlaces */
+  a {
+    color: #5E60CE;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #FFD700;
+  }
+  
+  /* Estilos para la lista de planes turísticos */
+  ul.list-disc {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+  
+  ul.list-disc li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  /* Estilo para el formulario de contacto */
+  form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+    font-size: 1rem;
+    backg
+  

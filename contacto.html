@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos - Moñitos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-blue-50 text-gray-800">
+  <!-- Encabezado con menú -->
+  <header class="bg-blue-700 text-white p-4">
+    <nav class="container mx-auto">
+      <ul class="flex justify-center space-x-6">
+        <li><a href="index.html" class="hover:underline">Inicio</a></li>
+        <li><a href="playas.html" class="hover:underline">Playas</a></li>
+        <li><a href="planes.html" class="hover:underline">Planes Turísticos</a></li>
+        <li><a href="contacto.html" class="hover:underline">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="container mx-auto p-6">
+    <section class="text-center">
+      <h1 class="text-4xl font-bold mb-6">Contáctanos</h1>
+      <p class="text-lg mb-6">¿Tienes alguna pregunta o deseas hacer una reserva? Completa el formulario de contacto a continuación y te responderemos a la brevedad.</p>
+
+      <form class="bg-white p-6 rounded shadow-md max-w-xl mx-auto">
+        <label for="nombre" class="block mb-2 font-semibold">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+
+        <label for="email" class="block mb-2 font-semibold">Correo electrónico:</label>
+        <input type="email" id="email" name="email" class="w-full p-2 mb-4 border border-gray-300 rounded" required>
+
+        <label for="mensaje" class="block mb-2 font-semibold">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" class="w-full p-2 mb-4 border border-gray-300 rounded" required></textarea>
+
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="bg-blue-700 text-white text-center p-4 mt-8">
+    <p>&copy; 2025 Descubre Moñitos. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
